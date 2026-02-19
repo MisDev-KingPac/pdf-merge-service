@@ -1,0 +1,23 @@
+# OpenClaw / local workspace noise
+.openclaw/
+.pi/
+
+# Node
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Secrets / credentials
+**/credentials.json
+**/token.json
+**/.env
+
+# Local scripts
+setup_gog_gmail.sh
+
+# PDFs / binaries
+*.pdf
+
+# OS
+.DS_Store
